@@ -41,7 +41,7 @@ app.post('/api/mint', async (req, res) => {
                 tx.pure.string(studentId),           // e.g., "2026-0001"
                 tx.pure.string(course),              // e.g., "SHS - TVL ICT"
                 tx.pure.string(documentHash),        // The SHA-256 hash from PHP
-                tx.pure.string(issuer),              // e.g., "Cittadini School"
+                tx.pure.string(issuer),              // e.g., "A certain Science High School"
                 tx.pure.address(recipientWallet)     // The student's Sui wallet address
             ]
         });
