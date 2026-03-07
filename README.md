@@ -12,7 +12,7 @@ Instead of reinventing the wheel, this project is designed to integrate seamless
 
 * **For Students:** Total ownership of their digital diplomas, securely held in a self-custodial Sui wallet.
 * **For Employers:** Instant, zero-cost verification of a candidate's educational background.
-* **For DepEd/CHED:** A modernized, automated registry where only whitelisted institutions (e.g., authorized JHS and SHS providers) hold the cryptographic authority to mint credentials.
+* **For DepEd/CHED:** A modernized, automated registry where only whitelisted institutions (e.g., authorized JHS, SHS and College Education providers) hold the cryptographic authority to mint credentials.
 
 ## 🏗️ Hybrid Architecture 
 
@@ -45,7 +45,7 @@ This project is being built in public. Here is our current roadmap:
   - [ ] Deploy the Sui Move smart contract to the Sui Testnet.
   - [ ] Integrate the Sui TypeScript SDK to connect the frontend to Sui wallets.
 - [ ] **Phase 4: Pilot Testing**
-  - [ ] Mint the first testnet Soulbound Diploma (e.g., using a test deployment for Cittadini School).
+  - [ ] Mint the first testnet Soulbound Diploma (e.g., using a test deployment fora certain School).
   - [ ] Build the public verification portal for employers.
 
 ## 🤝 How to Contribute
